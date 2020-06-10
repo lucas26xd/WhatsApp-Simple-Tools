@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Whatsapp simple tools",
+    "short_name": "Simple Wpp",
+    "version": "0.1",
+    "description": "Altere a velocidade de reprodução de áudios no WhatsApp Web e, se preferir, habilite o modo escuro.",
+    "author": "Lucas Santos",
+    "icons": {
+        "16": "icons/wpp16.png",
+        "48": "icons/wpp48.png",
+        "128": "icons/wpp128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.whatsapp.com/"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
