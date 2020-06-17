@@ -6,7 +6,7 @@
 
 ## Segue abaixo um pequeno tutorial de como instalar e usar a extensão no seu Chrome.
 
- 1. Baixe e extraia o os arquivos deste repositório. [Clicando aqui](https://github.com/lucas26xd/WhatsApp-Simple-Tools/archive/master.zip).
+ 1. Baixe e extraia o os arquivos deste repositório. [Clicando aqui](https://github.com/lucas26xd/WhatsApp-Simple-Tools/raw/master/WhatsApp-Simple-Tools.zip).
  2. Após isso, vá até [chrome://extensions](chrome://extensions).
  3. Habilite o modo do desenvolvedor para então acessar o botão de seleção da pasta descompactada.
  4. Selecione a pasta descompactada baixada anteriormente deste repositório.
