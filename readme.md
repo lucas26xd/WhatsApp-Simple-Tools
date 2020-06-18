@@ -1,4 +1,5 @@
-# WhatsApp Web Simple Tools
+# Quarentine Project #4 - Extension for Google Chrome
+## WhatsApp Web Simple Tools
 ## Extensão simples para o Google Chrome com intuito de realizar tarefas simples dentro do WhatsApp Web.
 ### Com esta extensão você pode:
  - Alterar o tema do WhatsApp Web do modo claro para o **modo escuro**, e vice-versa.
