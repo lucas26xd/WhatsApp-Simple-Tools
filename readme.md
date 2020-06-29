@@ -27,7 +27,7 @@
  6. Os botões de controle das ferramentas aparecerão ao lado dos 3 pontinhos do seu perfil.
 
 ### Segue abaixo um GIF exemplificando o tutorial.
-![Esquemático](https://github.com/lucas26xd/WhatsApp-Simple-Tools/blob/master/Instala%C3%A7%C3%A3o%20extens%C3%A3o.gif?raw=true)
+![Tutorial](https://github.com/lucas26xd/WhatsApp-Simple-Tools/blob/master/Instala%C3%A7%C3%A3o%20extens%C3%A3o.gif?raw=true)
 
 > Não sei porque ainda o WhatsApp não fez algo do tipo nativamente, mas enquanto não chega essa nova funcionalidade, já pode ir dando (~~adeus~~  rsrs) uma acelerada nos gigantescos áudios que você eventualmente possa receber.
 

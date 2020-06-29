@@ -1,8 +1,12 @@
-.WppButton{
-    color: gray;
+.SimpleTools{
+    color: #919191;
     font-size: 1rem;
     font-weight: bold;
     background-color: transparent;
     border: none;
     padding: 0em 0.1em 0.2em 1em;
+}
+
+.DarkButton{
+    color: #b1b3b5;
 }
