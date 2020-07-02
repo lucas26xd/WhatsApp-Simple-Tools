@@ -22,7 +22,9 @@ function refreshAudios() {
 function refreshPosition() {
     refreshAudios()
     speedButton.innerHTML = speeds[pos]
-    chrome.storage.sync.set({position: pos})
+    try {
+        chrome.storage.sync.set({position: pos})
+    } catch (e){}
 }
 
 //ALTERNA TEMA DA PÁGINA
@@ -37,8 +39,9 @@ darkButton.title = 'Alterna entre tema Claro e Escuro. Ctrl+;'
 
 darkButton.addEventListener('click', () => {
     toggleTheme()
-    chrome.storage.sync.set({darkmode: dm})
-    darkButton.innerHTML = refreshImgDarkButton(dm)
+    try {
+        chrome.storage.sync.set({darkmode: dm})
+    } catch (e){}
 })
 
 function refreshImgDarkButton(dm) {
@@ -49,6 +52,7 @@ function toggleTheme() {
     dm = document.body.classList.toggle('dark')
     speedButton.classList.toggle('DarkButton')
     darkButton.classList.toggle('DarkButton')
+    darkButton.innerHTML = refreshImgDarkButton(dm)
 }
 
 // AGUARDA PÁGINA PARA INSERIR NOVOS BOTÕES
@@ -60,13 +64,13 @@ const interval = setInterval(() => {
         clearInterval(interval)
 
         chrome.storage.sync.get(['position', 'darkmode'], (result) => {
+            //Resgatando as configs anteriormente salvas
             if (result.darkmode)
                 toggleTheme()
-            if (result.position)
+            if (result.position) {
                 pos = result.position
-            //Resgatando as configs anteriormente salvas
-            speedButton.innerHTML = speeds[pos]
-            darkButton.innerHTML = refreshImgDarkButton(dm)
+                refreshPosition()
+            }
         })
 
         header.appendChild(speedButton)
@@ -93,8 +97,9 @@ document.body.addEventListener('keydown', (event) => {
             refreshPosition()
         } else if (event.keyCode == 191) { //;
             toggleTheme()
-            chrome.storage.sync.set({darkmode: dm})
-            darkButton.innerHTML = refreshImgDarkButton(dm)
+            try {
+                chrome.storage.sync.set({darkmode: dm})
+            } catch (e){}
         }
     } else {
         if (event && event.keyCode == 17)
