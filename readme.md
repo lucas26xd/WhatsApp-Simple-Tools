@@ -1,4 +1,4 @@
-# :mask: :coffee: :computer: Quarentine Project #4 - Chromium-based browser extension
+# :mask: :coffee: :computer: [Quarentine Project](https://github.com/lucas26xd/Quarentine-Projects) #4 - Chromium-based browser extension
 [![GitHub author](https://img.shields.io/badge/author-lucas26xd-green?style=flat-square)](https://github.com/lucas26xd)
 [![GitHub last commit](https://img.shields.io/github/last-commit/lucas26xd/WhatsApp-Simple-Tools?color=green&style=flat-square)](../../commits/master)
 ![GitHub repo size](https://img.shields.io/github/repo-size/lucas26xd/WhatsApp-Simple-Tools?color=green&style=flat-square)
